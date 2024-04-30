@@ -134,8 +134,7 @@ Available flags are in the table below.
 | `$longtime` | Time in long locale format. | 1.5.2 |
 | `$ctime` | Will enable custom time format. | 2.0.0 |
 | `$tstime` | Curent timestamp | 3.1.2 |
-| `$uptime` | System uptime, `---d--h--m`. ||
-| `$cuptime` | Will enable custom uptime format. | 2.0.0 |
+| `$uptime` | System uptime in specified format. | 2.0.0 |
 | `$la1` | Load average over 1 min, `-----`. | 2.4.0 |
 | `$la5` | Load average over 5 min, `-----`. | 2.4.0 |
 | `$la15` | Load average over 15 min, `-----`. | 2.4.0 |
@@ -374,7 +373,7 @@ To allow some features with lambdas and templates several internal functions hav
 | `$a`/`$ap` | am or pm. |
 | `$A`/`$AP` | AM or PM. |
 
-**Custom uptime format:**
+**Uptime format:**
 
 |       |              |
 |-------|--------------|
